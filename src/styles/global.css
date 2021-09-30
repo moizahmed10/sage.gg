@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Passion One";
+  src: url("../assets/fonts/PassionOne-Bold.woff") format("woff2"),
+    url("../assets/fonts/PassionOne-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Passion One";
+  src: url("../assets/fonts/PassionOne-Regular.woff2") format("woff2"),
+    url("../assets/fonts/PassionOne-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Passion One";
+  src: url("../assets/fonts/PassionOne-Black.woff2") format("woff2"),
+    url("../assets/fonts/PassionOne-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-Regular.woff2") format("woff2"),
+    url("../assets/fonts/Inter-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Passion One";
+}
+p {
+  font-family: "Inter";
+  color: white;
+}
